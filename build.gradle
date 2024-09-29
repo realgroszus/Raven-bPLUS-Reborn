@@ -25,16 +25,16 @@ apply plugin: 'java'
 
 version = "1.2"
 group = "keystrokesmod"
-archivesBaseName = "[1.8.9] BetterKeystrokes V"
+archivesBaseName = "[1.12.2] BetterKeystrokes V"
 
 compileJava {
-    sourceCompatibility = '1.8'
-    targetCompatibility = '1.8'
+    sourceCompatibility = '1.12'
+    targetCompatibility = '1.12'
     options.encoding 'UTF-8'
 }
 
 minecraft {
-    version = "1.8.9-11.15.1.2318-1.8.9"
+    version = "1.12.2-forge-14.23.5.2860"
     runDir = "run"
 
     mappings = "stable_20"
@@ -105,7 +105,7 @@ processResources {
 
 
 /*
-// for people who want stable - not yet functional for MC 1.8.8 - we require the forgegradle 2.1 snapshot
+// for people who want stable - not yet functional for MC 1.12.2 - we require the forgegradle 2.1 snapshot
 plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
